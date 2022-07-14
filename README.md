@@ -6,8 +6,11 @@ simple microservice template via nestjs
 ## Installation
 
 ```
-$ cp .env.example .env
+mkdir gateway
 ```
 ```
-$ docker-compose up -d
+cp .env.example .env
+```
+```
+docker-compose up -d
 ```
